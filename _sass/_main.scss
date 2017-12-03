@@ -1,7 +1,34 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
-  @import "nav";
-  @import "custom";
+@import "nav";
+@import "custom";
+@import url('https://fonts.googleapis.com/css?family=Saira');
+
+h1,h2,h3,h4,h5,h6,p,a{
+  font-family:'Saira';
+}
   
+  footer{
+    color: grey;
+
+  }
+  footer a{
+    color: white;
+  }
+  footer a:hover{
+    color: white;
+   
+  }
+  
+  .mainfooter{
+    background-color: lightgray;
+    margin: 5px;
+  }
+
+ .nav{
+   background-color: lightgrey;
+   font-family:'Saira', sans-serif;
+ }
+
   
