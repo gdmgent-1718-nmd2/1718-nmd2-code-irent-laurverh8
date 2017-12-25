@@ -5,9 +5,7 @@
         margin-top: 20px
       }
 
-    .container-fluid{
-      width:100%;
-    } 
+   
     
  /* Footer */
 
@@ -49,9 +47,11 @@
     }
 
     .navbar-toggler {
-      color:white ;
       border-color:red;
-      background-color: transparent;
+    }
+
+    .navbar-toggler-icon{
+      background-color: white
     }
    
   
@@ -72,9 +72,14 @@
 
     .carousel-item {
         width:100%;
-        margin-bottom: 20px;  
     }
 
+    .box{
+      background-color: black;
+     
+      height: 50px;
+      margin: auto
+    }
 
     .gezellig{
         background-color: rgb(211, 183, 141);

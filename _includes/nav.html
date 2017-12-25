@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg nav navbar-inverse ">
+<nav class="navbar navbar-expand-lg nav navbar-inverse bg-inverse ">
     <!-- websitelogo -->
     <a class="navbar-brand" href="index.html">
         <img src="images/logo.svg" width="35px" height="40px" class="d-inline-block align-top" alt="">
@@ -7,13 +7,13 @@
     
     
     <!-- hamburger icoon -->
-    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
     <!-- hoofdnavigatie -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto ">
+      <ul class="navbar-nav ml-auto ">
           {% assign links = site.data.navigation %}
           {% for link in links %}
               {% assign class = nil %}
