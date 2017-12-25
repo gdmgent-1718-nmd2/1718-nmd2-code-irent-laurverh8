@@ -1,13 +1,18 @@
-h1,h2,h3,h4,h5,h6,p,a{
-    font-family:'Saira';
-    margin-top: 20px
-  }
+ /* Font */
 
+    h1,h2,h3,h4,h5,h6,p,a{
+      font-family: 'Titillium Web', sans-serif;
+        margin-top: 20px
+      }
 
+    .container-fluid{
+      width:100%;
+    } 
     
  /* Footer */
+
     footer{
-      color: grey;
+      color: white;
     }
 
     footer a{
@@ -15,47 +20,122 @@ h1,h2,h3,h4,h5,h6,p,a{
     }
 
     footer a:hover{
-      color: white;
-     
+      color: red;
+      
     }
-    
+
     .mainfooter{
-      background-color: lightgray;
+      background-color: black;
       padding: 20px;
-     
+      margin-top:20px;
+      width:100%
     }
 
-
-.footervuurhuur{
-    margin-top: 50px
-}
  /* Navigatie */
 
-   .nav{
-     background-color: lightgrey;
-     font-family:'Saira', sans-serif;
-   }
-
-.fireplace{
-    margin-top: 1em;
-    margin-bottom: 1em;
-
-}
-
-.carousel-item img{
-    width:100%;
+    .nav{
+      background-color: black ;
+      font-family:'Saira', sans-serif;
+      padding-bottom: 20px;
+      
+    }
     
-}
-.carousel-item {
-    width:100%;
-    height:200px;
-    
-}
+    .navbar-brand{
+      color:white;
+      }
+      
+    a {
+      color: white
+    }
+
+    .navbar-toggler {
+      color:white ;
+      border-color:red;
+      background-color: transparent;
+    }
+   
+  
+    .fireplace{
+        margin-top: 2em;
+        margin-bottom: 1em;
+
+    }
+
+    .fire
+    .family{
+      margin-top:20px
+    }
+
+    .carousel-item img{
+        width:100%;   
+    }
+
+    .carousel-item {
+        width:100%;
+        margin-bottom: 20px;  
+    }
 
 
-.gezellig{
-    background-color: lightgray;
-    padding: 2em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
+    .gezellig{
+        background-color: rgb(211, 183, 141);
+        padding: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+
+    .btn-group{
+      margin-bottom: 20px;
+    }
+
+    .stroke{
+      background-color:grey;
+      stroke:solid;
+      width: 100%;
+      border: none;
+      height: 1px 
+    }
+
+/* Contact */
+
+    .contact{
+      margin: 20px;
+      background-color:  rgb(211, 183, 141);
+
+    }
+
+/* winkelwagen */
+
+    .periode{
+      background-color:grey;
+      color: white
+    }
+
+
+    .table{
+      font-family:'Titillium Web', sans-serif;
+    }
+
+    .product{
+      margin-top: 30px;
+      margin-bottom: 30px
+    }
+
+    .winkelwagen{
+      background-color: lightgray;
+      color: grey;
+      width: 100%;
+      margin-bottom: 20px
+    }
+
+    .breadcrumb{
+      background-color: white;  
+    }
+
+    .breadcrumb-item{
+      color:grey
+    }
+
+    .breadcrumb-item.active{
+      color: red
+    }
