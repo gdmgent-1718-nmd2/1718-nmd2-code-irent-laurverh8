@@ -1,8 +1,9 @@
  /* Font */
 
     h1{
-       font-family: 'Titillium Web', sans-serif;
-       margin-top: 20px
+      font-family: 'Oswald', sans-serif;
+       margin-top: 20px;
+       
     }
     
     h2,h3,h4,h5,h6,p,a{
@@ -15,6 +16,9 @@
       
     }
     
+    li{
+      font-family: 'Titillium Web', sans-serif;
+    }
  /* Footer */
 
     footer{
@@ -30,6 +34,35 @@
       padding: 20px;
       margin-top:20px;
       width:100%
+    }
+
+    
+    .facebook{
+      background-image: url(images/sprite.png);
+      background-position: 0 0;
+      
+      margin: auto;
+    }
+
+    .instagram{
+      background-image: url(images/sprite.png);
+      background-position: -100px 0;
+      margin: auto;
+     
+    }
+    .icon{
+      background-image: url(../../images/sprite.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      width:100px;
+      height: 100px;
+      text-indent: -999rem;
+      overflow:hidden; 
+      margin: auto;
+      margin-bottom: -20px !important
+    
+      
+      
     }
 
  /* Navigatie */
@@ -72,7 +105,9 @@
 
     }
 
-    .fire
+    .fire{
+      align-items: center
+    }
     .family{
       margin-top:20px
     }
@@ -93,7 +128,8 @@
     }
 
     .gezellig{
-        background-color: rgb(211, 183, 141);
+        
+        background-color: rgb(210, 194, 175);
         padding: 2em;
         margin-top: 2em;
         margin-bottom: 2em;
@@ -166,44 +202,57 @@
     }
     
 
+/* Extra small devices (portrait phones, less than 576px)*/
 
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px){}
+@media (max-width: 576px){
+
+  .footer{
+    text-align: center
+  }
+  .copy{
+    text-align: center
+  }
+
+  
+}
+
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .display-3{
       font-size: 100px
   }
-  .lead{
-      font-size: 20px
-  }
-  .button{
-      width: 100%
-  }
+ 
+  
   
   .container {
       position: relative;
       width: 100%;
   }
+
+  .icon{
+    
+    margin-top: -10px !important;
+    margin-bottom: -20px !important;
+    
+    
+  }
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-.display-3{
-    font-size: 100px
-}
-.lead{
-    font-size: 20px
-}
-.button{
-    width: 100%
-}
+  
+  .container {
+      position: relative;
+      width: 100%;
+  }
 
-.container {
-    position: relative;
-    width: 100%;
-}
+  .gegevens{
+    column-count: 2
+  }
 
-.gegevens{
-  column-count: 2
-}}
+  .logo{
+    position: center
+  }
+
+
+  }
