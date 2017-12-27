@@ -19,6 +19,12 @@
     li{
       font-family: 'Titillium Web', sans-serif;
     }
+
+    .shop{
+      font-size: 14px;
+      margin-top: 30px;
+      font-style: italic
+    }
  /* Footer */
 
     footer{
@@ -41,24 +47,23 @@
       background-image: url(images/sprite.png);
       background-position: 0 0;
       
-      margin: auto;
+      
     }
 
     .instagram{
       background-image: url(images/sprite.png);
-      background-position: -100px 0;
-      margin: auto;
+      background-position: -50px 0;
+      
      
     }
     .icon{
       background-image: url(../../images/sprite.png);
       background-repeat: no-repeat;
       display: inline-block;
-      width:100px;
-      height: 100px;
+      width:50px;
+      height: 50px;
       text-indent: -999rem;
       overflow:hidden; 
-      margin: auto;
       margin-bottom: -20px !important
     
       
@@ -148,6 +153,18 @@
       height: 1px 
     }
 
+/* SHOP */
+    .openhaard{
+    padding-top: 20px;
+    margin-bottom: 20px
+    }
+
+    ul{
+      list-style-image: url(../../images/logo.svg)
+    }
+
+    
+
 /* Contact */
 
     .contact{
@@ -202,18 +219,25 @@
     }
     
 
-/* Extra small devices (portrait phones, less than 576px)*/
 
-@media (max-width: 576px){
 
-  .footer{
-    text-align: center
+@media (min-width: 576px){
+
+  .footer .ul .li{
+    text-align: center;
+    margin: auto;
+    align-items: center
   }
   .copy{
     text-align: center
   }
-
-  
+  .icon{
+    margin-bottom: 40px !important;
+    
+  }
+  .haarden{
+    width: 50px !important
+  }
 }
 
 
@@ -222,9 +246,7 @@
   .display-3{
       font-size: 100px
   }
- 
-  
-  
+
   .container {
       position: relative;
       width: 100%;
@@ -234,10 +256,18 @@
     
     margin-top: -10px !important;
     margin-bottom: -20px !important;
-    
-    
+     
   }
-}
+
+  .facebook{
+    margin-left: 20px !important
+  }
+  .openhaard{
+    margin-top: 25px !important;
+    width: 350px !important
+  }
+  }
+
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   
@@ -254,5 +284,8 @@
     position: center
   }
 
+  .openhaard{
+    width: 350px
 
+  }
   }
