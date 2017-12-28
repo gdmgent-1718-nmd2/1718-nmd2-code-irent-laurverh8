@@ -3,7 +3,7 @@ layout   : default
 permalink: adresgegevens
 # Custom Page Variables
 # ─────────────────────
-title: VUURHUUR
+title: Winkelwagen
 ---
 <nav class="breadcrumb">
     <a class="breadcrumb-item " href="winkelwagen.html">Winkelwagen</a>
@@ -14,94 +14,82 @@ title: VUURHUUR
    
   </nav>
 
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12">
+              <h1>Gegevens</h1>
+              <hr class="stroke">
+          </div>
+      </div>
+  </div>
 
-<div class="container-fluid ">
+<div class="container-fluid gegevens">
   <div class="row">
-    <div class="col-12 text-center text-md-left">
-      
-        <form class="form" action="/action_page.php">
-          <div class="form-check form-check-inline">
-              <label class="aanhef">Aanhef:</label>
+    <div class="col-sm-12 col-md-5 col-lg-5">
+      <div>
+              <label class="aanhef textlabel">Aanhef*</label>
+              <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Dhr.
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Dhr.">
+              Dhr.
               </label>
             </div>
             <div class="form-check form-check-inline">
               <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Mw.
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value=" Mw.">
+              Mvr.
               </label>
             </div>
-        </form>
+       <br>
 
-    </div>
-  </div>
-</div>
+          <label class="textlabel">Naam*</label>
+          <input type="text"class=" placeholder form form-control"  placeholder="Typ hier uw achternaam">
+        
+          <label class="textlabel">Voornaam*</label>
+          <input type="text"class="placeholder form form-control"  placeholder="Typ hier uw voornaam">
 
-
-  <div class="container-fluid gegevens text-center text-md-left">
-    <div class="row">
-      <div class="col-12 ">
-          <form class="form" action="/action_page.php">
-      
-        <div class="form-group">
-          <label>Naam:</label>
-          <input class="form-control"  name="Naam">
-        </div>
-
-        <div class="form-group">
-          <label>Voornaam:</label>
-          <input  class="form-control"  name="Voornaam">
-        </div>
-
-        <div class="form-group">
-          <label>Tel:</label>
-          <input  class="form-control"  name="Telefoonnummer">
-        </div>
-
-        <div class="form-group">
-          <label>E-mail:</label>
-          <input  class="form-control"  name="E-mail">
-        </div>
-      
+          <label class="textlabel">E-mail*</label>
+          <input type="text"class=" placeholder form form-control"  placeholder="Typ hier uw e-mail">
   
-        <div class="form-group">
-          <label>Straat:</label>
-          <input  class="form-control"  name="Straat">
-        </div>
-
-        <div class="form-group">
-          <label>Nr:</label>
-          <input  class="form-control"  name="Nr.">
-        </div>
-
-        <div class="form-group">
-          <label>Postcode:</label>
-          <input  class="form-control"  name="Postcode">
-        </div>
-
-        <div class="form-group">
-          <label>Plaats:</label>
-          <input  class="form-control"  name="Plaats">
-        </div>
-
-      </form>
-      </div>
+          <label class="textlabel">Tel.*</label>
+          <input type="text"class="placeholder form form-control"  placeholder="Typ hier uw telefoonnummer">
     </div>
   </div>
 
+  <div class="col-sm-12 col-md-5 col-lg-5">
+    <div>
+        <label class="textlabel">Straat*</label>
+        <input type="text"class="placeholder form form-control"  placeholder="Typ hier uw straat">
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-6">
-          <a href="winkelwagen.html">
-          <button type="button" class="btn btn-secondary ">Terug naar winkelwagen</button>
-          </a>
-        </div>
-    
-        <div class="col-6">
-          <a href="betaalwijze.html">
-          <button type="button" class="btn btn-secondary float-right">Verder naar betalen</button>
-          </a>
-        </div>
+        <label class="textlabel">Huisnummer*</label>
+        <input type="text"class="placeholder form form-control"  placeholder="Typ hier uw huisnummer">
+     
+        <label class="textlabel">Postcode*</label>
+        <input type="text"class="placeholder form form-control"  placeholder="Typ hier uw postcode">
+
+        <label class="textlabel">Plaats*</label>
+        <input type="text"class="placeholder form form-control"  placeholder="Typ hier uw gemeente">
+
+        <label class="textlabel">Land*</label>
+        <input type="text"class="placeholder form form-control"  placeholder="Typ hier uw land">
+
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-2 col-lg-2 text-center">
+      <img src="images/logozwart.svg" width="50px"class="img-fluid adreslogo" alt="Responsive image">
+  </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+      <a href="winkelwagen.html">
+      <button type="button" class="btn btn-secondary ">Terug</button>
+      </a>
+    </div>
+
+    <div class="col-6">
+      <a href="betaalwijze.html">
+      <button type="button" class="btn btn-secondary float-right">Verder</button>
+      </a>
+    </div>
   
  

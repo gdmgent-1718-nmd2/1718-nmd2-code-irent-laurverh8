@@ -15,7 +15,11 @@
       font-family: 'Titillium Web', sans-serif;
       
     }
-    
+    .onderschrift{
+      margin-top:-15px;
+      margin-bottom:70px;
+      font-family: 'Oswald', sans-serif;
+    }
     li{
       font-family: 'Titillium Web', sans-serif;
     }
@@ -33,6 +37,42 @@
     .formperiode{
       font-family: 'Titillium Web', sans-serif;
     }
+
+    .gegevens{
+      font-family: 'Titillium Web', sans-serif;
+     
+    }
+    .label{
+      font-family: 'Titillium Web', sans-serif;
+      
+    }
+    .placeholder{
+      width:92%;
+      margin-right:50px
+    }
+    .form{
+      margin-bottom: 20px;
+      margin-right:20px
+    }
+    .textlabel{
+      margin-left: 20px
+    }
+
+    .artikel{
+     font-size: 20px !important;
+     margin-top:20px!important;
+     color: red
+      
+    }
+
+    .linkvoorwaarden{
+      color: black
+    }
+
+    .linkvoorwaarden:hover{
+      color: red
+    }
+
  /* Button */  
     .btn{
       font-family: 'Oswald', sans-serif;
@@ -109,9 +149,14 @@
 
  /* Navigatie */
 
-    .nav{
+    .navcolor{
       background-color: black ;
       padding-bottom: 20px;
+      color:white
+      
+    }
+    .navbar-dark{
+      color:white
       
     }
     .navbar-brand{
@@ -131,14 +176,11 @@
     }
 
     .navbar-toggler {
-      border-color:red;
       
+      margin-top: 20px
     }
 
-    .navbar-toggler-icon{
-      color: white;
-     
-    }
+    
    
   
     .fireplace{
@@ -150,9 +192,7 @@
     .fire{
       align-items: center
     }
-    .family{
-      margin-top:20px
-    }
+    
 
     .carousel-item img{
         width:100%;   
@@ -193,7 +233,7 @@
       margin-bottom: 30px
     }
    
-
+    
     .stroke{
       background-color:grey;
       stroke:solid;
@@ -205,6 +245,8 @@
     .form{
       margin-right: 20px
     }
+
+    
 /* SHOP */
     .openhaard{
     padding-top: 20px;
@@ -220,7 +262,7 @@
 /* Contact */
 
     .contact{
-      margin: 20px;
+      margin: 16px;
       background-color:  rgb(210, 194, 175);
 
     }
@@ -297,11 +339,20 @@
       font-size: 50px
     }
 
-    .artikel{
+    .artikelnummer{
       margin-top:-3px;
       font-size: 14px
     }
 
+    .copyright{
+      margin-top: -5px
+    }
+
+    .contact{
+      margin-top:-1px
+
+      
+    }
 @media (min-width: 576px){
 
   .footer .ul .li{
@@ -317,6 +368,7 @@
     margin-top: 15px !important
   }
 
+  
   
 }
 
@@ -345,7 +397,13 @@
     width: 400px
   }
   
-
+  .adreslogo{
+    margin-top: 200px;
+    width:100px
+  }
+  .index{
+    margin-top:110px
+  }
   }
 
 /* Large devices (desktops, 992px and up)*/
@@ -356,9 +414,7 @@
       width: 100%;
   }
 
-  .gegevens{
-    column-count: 2
-  }
+ 
 
   .logo{
     position: center
