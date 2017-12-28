@@ -150,7 +150,7 @@
  /* Navigatie */
 
     .navcolor{
-      background-color: black ;
+      background-color: black !important; 
       padding-bottom: 20px;
       color:white
       
@@ -182,7 +182,7 @@
 
     
    
-  
+   /* Home */
     .fireplace{
         margin-top: 2em;
         margin-bottom: 1em;
@@ -241,6 +241,8 @@
       border: none;
       height: 1px 
     }
+
+/* gegevens */
 
     .form{
       margin-right: 20px
