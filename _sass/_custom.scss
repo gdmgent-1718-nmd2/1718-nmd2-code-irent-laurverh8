@@ -25,6 +25,43 @@
       margin-top: 30px;
       font-style: italic
     }
+
+    .dropdown-menu{
+      font-family: 'Titillium Web', sans-serif;
+    }
+
+    .formperiode{
+      font-family: 'Titillium Web', sans-serif;
+    }
+ /* Button */  
+    .btn{
+      font-family: 'Oswald', sans-serif;
+      background-color: grey;
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      
+      border-width:2px
+     
+    }
+
+    .btn:hover{
+      font-family: 'Oswald', sans-serif;
+      background-color: white;
+      color:grey;
+      border-width: 2px;
+      
+    }
+
+    .winkel{
+      width: 50%;
+      
+      }
+    
+    
+    
+    
+
  /* Footer */
 
     footer{
@@ -37,7 +74,7 @@
 
     .mainfooter{
       background-color: black;
-      padding: 20px;
+      padding: 40px;
       margin-top:20px;
       width:100%
     }
@@ -62,13 +99,13 @@
       display: inline-block;
       width:50px;
       height: 50px;
-      text-indent: -999rem;
+      text-indent: -999rem !important;
       overflow:hidden; 
-      margin-bottom: -20px !important
-    
       
-      
+
     }
+
+    
 
  /* Navigatie */
 
@@ -128,7 +165,7 @@
     .box{
       background-color: black;
      
-      height: 50px;
+      height: 80px;
       margin: auto
     }
 
@@ -140,10 +177,22 @@
         margin-bottom: 2em;
     }
 
-
-    .btn-group{
-      margin-bottom: 20px;
+    .merken{
+      background-color:lightgrey;
+        padding: 2em;
+        margin-top: 2em;
+        
     }
+
+    .barbas{
+      margin-bottom: 7px
+    }
+
+    .logozwart{
+      margin-top: 50px;
+      margin-bottom: 30px
+    }
+   
 
     .stroke{
       background-color:grey;
@@ -153,6 +202,9 @@
       height: 1px 
     }
 
+    .form{
+      margin-right: 20px
+    }
 /* SHOP */
     .openhaard{
     padding-top: 20px;
@@ -169,7 +221,7 @@
 
     .contact{
       margin: 20px;
-      background-color:  rgb(211, 183, 141);
+      background-color:  rgb(210, 194, 175);
 
     }
 
@@ -191,8 +243,8 @@
     }
 
     .winkelwagen{
-      background-color: lightgray;
-      color: grey;
+      background-color: rgb(210, 194, 175);
+      color: black;
       width: 100%;
       margin-bottom: 20px
     }
@@ -218,8 +270,37 @@
       margin-right: 30px
     }
     
+    .aantal{
+      width: 40px !important;
+      border-radius: 5px;
+      margin-left: 20px
+    }
 
+    .trash{
+      margin-bottom: 40px;
+      color:black
+    }
 
+    .trash:hover{
+      margin-bottom: 40px;
+      color:red
+    }
+
+    .form-control{
+      margin-left: 20px;
+      margin-top:15px
+    }
+
+    .euro{
+      margin-top: -5px;
+      margin-bottom: 20px;
+      font-size: 50px
+    }
+
+    .artikel{
+      margin-top:-3px;
+      font-size: 14px
+    }
 
 @media (min-width: 576px){
 
@@ -231,26 +312,18 @@
   .copy{
     text-align: center
   }
-  .icon{
-    margin-bottom: 40px !important;
-    
+  
+  .faber{
+    margin-top: 15px !important
   }
-  .haarden{
-    width: 50px !important
-  }
+
+  
 }
 
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  .display-3{
-      font-size: 100px
-  }
-
-  .container {
-      position: relative;
-      width: 100%;
-  }
+  
 
   .icon{
     
@@ -266,6 +339,13 @@
     margin-top: 25px !important;
     width: 350px !important
   }
+  
+  .fireplace{
+    margin-top: 10em;
+    width: 400px
+  }
+  
+
   }
 
 /* Large devices (desktops, 992px and up)*/
@@ -287,5 +367,16 @@
   .openhaard{
     width: 350px
 
+  }
+  .haarden{
+    margin-top: 1em !important;
+  }
+  
+  .btn{
+    width:100% !important
+  }
+  .fireplace{
+    margin-top: 7em;
+    width: 600px
   }
   }
